@@ -1,0 +1,45 @@
+*{
+    border: 2px solid orange;
+    padding: 0;
+    margin:0;
+}
+#title{
+    text-align: center;
+    width:calc(100vw-4px);
+    background-color: blue;
+    color:yellow;
+    height: 50px;
+    font-size: 22px;
+}
+.navBar{
+    text-align: center;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    font-size: 25px;
+    background-color: black;
+    border: 2px radius black;
+    color:aqua;
+margin:0 20vw 0 20vw ;
+}
+.navbutton{
+    width : 20vw;
+}
+.navbutton:hover{
+font-size: 40px;
+cursor: cell;
+color:gold;
+text-align: center;
+}
+#ty{
+    text-align: center;
+    font-size: x-large;
+    color :rgb(61, 52, 3);
+    border:0;
+}
+img{
+    width:200px;
+    height:400px;
+    margin:10vw 10vw 10vw 42.5vw;
+}
